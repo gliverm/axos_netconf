@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ncclient = "*"
+xmltodict = "*"
+jinja2 = "*"
+pydantic = "*"
+typer = "*"
+loguru = "*"
+tqdm = "*"
+fqdn = "*"
+python-dotenv = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+pytest = "*"
+testfixtures = "*"
+pre-commit = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.12"

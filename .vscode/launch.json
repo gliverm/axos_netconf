@@ -1,0 +1,71 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: help",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--help",
+            ],
+        },
+        {
+            "name": "Python Debugger: get",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "10.137.13.133",
+            ],
+        },
+        {
+            "name": "Python Debugger: set",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "10.137.13.133",
+                "--checktype",
+                "edit-config",
+            ],
+        },
+        {
+            "name": "Python Debugger: get repeat",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "10.137.13.133",
+                "--repeat",
+                "5",
+            ],
+        },
+        {
+            "name": "Python Debugger: set repeat",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "10.137.13.133",
+                "--checktype",
+                "edit-config",
+                "--repeat",
+                "5",
+            ],
+        },
+    ]
+}
