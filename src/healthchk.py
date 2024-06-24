@@ -9,6 +9,9 @@ Note: TDQM may not handle keyboardInterupt well at all times.  This can
 be an extra progress bar line printed or a traceback within TDQM.
 Open issue:   https://github.com/tqdm/tqdm/issues/548
 
+* Terminal exports:
+export PYTHONPATH=${PYTHONPATH}:${PWD}
+
 """
 
 from typing import List
